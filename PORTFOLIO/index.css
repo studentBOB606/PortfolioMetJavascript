@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1450px 800px;
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: white;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.chung{
+    position: absolute;
+    font-weight: bold;
+    text-decoration: none;
+    top: 5mm;
+    margin-left: -150px;
+    font-size: 15px;
+    color: white;
+}
+.experience{
+    position: absolute;
+    text-decoration: none;
+    top: 5mm;
+    margin-left: -80px;
+    font-size: 15px;
+    color: white;
+}
+.about{
+    position: absolute;
+    text-decoration: none;
+    top: 5mm;
+    margin-left: 15px;
+    font-size: 15px;
+    color: white;
+}
+.craft{
+    position: absolute;
+    text-decoration: none;
+    top: 5mm;
+    margin-left: 75px;
+    font-size: 15px;
+    color: white;
+}
+.signup{
+    position: absolute;
+    top: 5mm;
+    margin-left: 400px;
+    font-size: 10px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+.login{
+    position: absolute;
+    top: 5mm;
+    margin-left: 525px;
+    font-size: 10px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+.reach-out{
+    position: absolute;
+    font-weight: bold;
+    font-size: 13px;
+    top: 125mm;
+    right: 247mm;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius: 9px;
+}
+.main-sub{
+    position: absolute;
+    width: 555px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    top: 62mm;
+    right: 135mm;
+}
+span{
+    color: rebeccapurple;
+    font-size: 45px;
+}
+.img-profile{
+    position: relative;
+    border-radius: 30%;
+    width: 60px;
+    height: 60px;
+    top: -50mm;
+    left: -72mm;
+}
+.image-main{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    right: 1mm;
+    opacity: .2;
+}
+.github{
+    position: relative;
+    color: white;
+    top: 52mm;
+    left: -89mm;
+    opacity: .6;
+}
+.linkedin{
+    position: relative;
+    color: white;
+    top: 52mm;
+    left: -82mm;
+    opacity: .6;
+}
+.settings{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 5mm;
+    right: 155mm;
+}

@@ -1,0 +1,25 @@
+header{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+p{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: red;
+}
+.placeholder{
+    position: absolute;
+    left: 165mm;
+    width: 200px;
+}
+.terugpijl {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 5vh;
+    right: 5vh;
+}
